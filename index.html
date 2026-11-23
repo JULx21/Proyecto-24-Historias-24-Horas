@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto 24 - Stories 24 horas</title>
+ 
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <h1>Stories</h1>
+
+  <!-- Lista de stories: arriba, con el botón + al inicio -->
+  <div id="lista-stories">
+    <!-- El label hace de botón +; al hacer clic abre el input de archivo -->
+    <label for="subir" id="boton-mas">+</label>
+    <input type="file" id="subir" accept="image/*">
+  </div>
+
+  <!-- Visor: pantalla completa que se muestra al hacer clic en una story -->
+  <div id="visor">
+    <div id="barras"></div>
+    <button id="cerrar">X</button>
+    <img id="imagen-story" alt="Story">
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
